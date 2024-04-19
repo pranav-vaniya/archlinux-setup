@@ -98,7 +98,7 @@ set mouse
 # set nohelp
 
 ## Don't automatically add a newline when a file does not end with one.
-set nonewlines
+# set nonewlines
 
 ## Set operating directory.  nano will not read or write files outside
 ## this directory and its subdirectories.  Also, the current directory
@@ -230,7 +230,7 @@ set numbercolor italic,lightgreen
 
 ## To include most of the existing syntax definitions, you can do:
 include "/usr/share/nano/*.nanorc"
-include "/usr/share/nano-syntax-highlighting/*.nanorc"
+#include "/usr/share/nano-syntax-highlighting/*.nanorc"
 
 ## Or you can select just the ones you need.  For example:
 # include "/usr/share/nano/html.nanorc"
