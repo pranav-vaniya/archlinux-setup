@@ -6,7 +6,10 @@
 [[ $- != *i* ]] && return
 
 # PS1="\W > "
-PS1="\[\033[0;32m\]\W > \[\033[0m\]"
+# ⮕ 🡒 → ⟶ ⇾ ➟ ➔ ➜ ➝ ➤ ➡ ➥
+PS1="\[\033[0;32m\]\W ➟ \[\033[0m\]"
+#PS1="\[\033[0;30m\]\W ➟ \[\033[0m\]"
+#PS1="\[\033[0;32m\]\W \[\033[0m\]\[\033[0;33m\]➟\[\033[0m\] "
 
 new_line_flag=0
 function set_new_line() {
@@ -37,10 +40,16 @@ alias ls="eza --icons --sort type"
 alias lsc="clear && eza --icons --sort type"
 alias ll="eza --icons --sort type -l"
 alias llc="clear && eza --icons --sort type -l"
+alias acpi="acpi | grep -oE '[0-9]+%' | cut -d '%' -f 1"
 alias ping="ping -c 3 gentoo.org"
 alias updatedb="sudo updatedb"
 alias py="/home/pranav/.config/python-venv/bin/python"
 alias pip="/home/pranav/.config/python-venv/bin/pip"
 alias python="/home/pranav/.config/python-venv/bin/python"
-alias ssh-archiso="ssh tester@192.168.122.145"
 alias git-token="cat /home/pranav/Files/Git/token"
+alias clone-meaty="git clone https://gitlab.com/sortie/meaty-skeleton.git"
+
+# VM ssh
+alias ssh-arch-xfce="ssh tester@192.168.122.190"
+alias ssh-ubuntu="ssh tester@192.168.122.98"
+alias ssh-gentoo-min="ssh tester@192.168.122.26"
