@@ -1,2 +1,1 @@
 @theme "/home/pranav/.config/rofi/themes/nord.rasi"
-# rofi -show drun -drun-match-fields name
