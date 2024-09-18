@@ -1,0 +1,2 @@
+-> match names in rofi
+rofi command: rofi -show drun -drun-match-fields name

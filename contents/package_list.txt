@@ -1,0 +1,14 @@
+acpi
+firefox
+git
+bat
+eza
+trash-cli
+alacritty
+less
+lightdm-gtk-greeter-settings
+rofi
+tree
+unzip
+vlc
+wget

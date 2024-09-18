@@ -1,0 +1,3 @@
+visual-studio-code-bin
+brave-bin
+betterlockscreen
